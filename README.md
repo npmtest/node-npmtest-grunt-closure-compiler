@@ -1,4 +1,7 @@
-# test coverage for  [grunt-closure-compiler (v0.0.21)](https://github.com/gmarty/grunt-closure-compiler)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-closure-compiler.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-closure-compiler) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-closure-compiler.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-closure-compiler)
+# npmtest-grunt-closure-compiler
+
+#### basic test coverage for  [grunt-closure-compiler (v0.0.21)](https://github.com/gmarty/grunt-closure-compiler)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-closure-compiler.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-closure-compiler) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-closure-compiler.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-closure-compiler)
+
 #### A Grunt task for Closure Compiler.
 
 [![NPM](https://nodei.co/npm/grunt-closure-compiler.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-closure-compiler)
@@ -32,35 +35,20 @@
 ```json
 
 {
+    "name": "grunt-closure-compiler",
+    "description": "A Grunt task for Closure Compiler.",
+    "version": "0.0.21",
+    "homepage": "https://github.com/gmarty/grunt-closure-compiler",
     "author": {
         "name": "Guillaume Marty"
     },
-    "bin": {
-        "grunt-closure-compiler": "bin/grunt-closure-compiler"
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/gmarty/grunt-closure-compiler.git"
     },
     "bugs": {
         "url": "https://github.com/gmarty/grunt-closure-compiler/issues"
     },
-    "dependencies": {
-        "grunt": "~0.4.0"
-    },
-    "description": "A Grunt task for Closure Compiler.",
-    "devDependencies": {},
-    "directories": {},
-    "dist": {
-        "shasum": "dfed7578bb3d6b13261aa4d3ecc4dc1bb991d9a0",
-        "tarball": "https://registry.npmjs.org/grunt-closure-compiler/-/grunt-closure-compiler-0.0.21.tgz"
-    },
-    "engines": {
-        "node": ">=0.6.0"
-    },
-    "homepage": "https://github.com/gmarty/grunt-closure-compiler",
-    "keywords": [
-        "Closure Compiler",
-        "Minification",
-        "Performance",
-        "gruntplugin"
-    ],
     "licenses": [
         {
             "type": "MIT",
@@ -68,21 +56,24 @@
         }
     ],
     "main": "grunt.js",
-    "maintainers": [
-        {
-            "name": "g_marty"
-        }
-    ],
-    "name": "grunt-closure-compiler",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/gmarty/grunt-closure-compiler.git"
+    "bin": {
+        "grunt-closure-compiler": "bin/grunt-closure-compiler"
+    },
+    "engines": {
+        "node": ">=0.6.0"
     },
     "scripts": {
         "test": "grunt test"
     },
-    "version": "0.0.21"
+    "dependencies": {
+        "grunt": "~0.4.0"
+    },
+    "keywords": [
+        "Closure Compiler",
+        "Minification",
+        "Performance",
+        "gruntplugin"
+    ]
 }
 ```
 
